@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Anurati Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Anurati Regular'), url('Anurati-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: "Marske";
+  src: url("216218e739f1bfeab0932a5092b805e1.eot"); /* IE9*/
+  src: url("216218e739f1bfeab0932a5092b805e1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("216218e739f1bfeab0932a5092b805e1.woff2") format("woff2"), /* chrome、firefox */
+  url("216218e739f1bfeab0932a5092b805e1.woff") format("woff"), /* chrome、firefox */
+  url("216218e739f1bfeab0932a5092b805e1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("216218e739f1bfeab0932a5092b805e1.svg#Marske") format("svg"); /* iOS 4.1- */
+}
+h1 {
+    /* color:chocolate;
+    font-weight:600;
+    font-size: 4rem; */
+    font-family:"Marske";
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
